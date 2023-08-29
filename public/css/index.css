@@ -3,12 +3,12 @@
     color: red;
   }
 
-.lesson-four-task-two h1:hover, a:hover {
+.lesson-four-task-two a:hover ~ h1 {
     background-color: green;
   }
 
   .lesson-four-task-three a:visited {
-    background-color: yellow;
+    color: yellow;
   }
 
   .lesson-four-task-four a:link {
@@ -84,4 +84,4 @@
 
   .lesson-four-task-twenty input:invalid {
     background: red;
-
+  }
